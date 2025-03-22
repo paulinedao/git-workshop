@@ -7,6 +7,9 @@ def example():
 def yania_says():
     return "Everyone"
 
+def yania_says_again():
+    return "says what?"
+    
 # Main function to execute all contributed functions
 def main():
     # Add your function to the list
