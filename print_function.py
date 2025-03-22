@@ -14,6 +14,13 @@ def pauline_says():
 def main():
     # Add your function to the list
     functions = [example, pauline_says, yania_says] 
+def yania_says_again():
+    return "says what?"
+    
+# Main function to execute all contributed functions
+def main():
+    # Add your function to the list
+    functions = [example, yania_says_again, yania_says] 
     for func in functions:
         print(func())
 
