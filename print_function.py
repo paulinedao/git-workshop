@@ -13,7 +13,7 @@ def yania_says_again():
 # Main function to execute all contributed functions
 def main():
     # Add your function to the list
-    functions = [example, yania_says, yania_says_again] 
+    functions = [example, yania_says_again, yania_says] 
     for func in functions:
         print(func())
 
