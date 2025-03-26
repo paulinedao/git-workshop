@@ -7,6 +7,8 @@
 - [Usage](#usage)
 - [Authors](#authors)
 
+Link to the ppt: https://docs.google.com/presentation/d/1af5xXQHLkFNaeogDvxd0COdaFV1w-Uk5/edit?usp=sharing&ouid=110172789191062130649&rtpof=true&sd=true
+
 ## About <a name= "about"></a>
 This repository was created for the Git workshop as part of a Code Women event.
 
