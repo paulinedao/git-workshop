@@ -12,7 +12,9 @@ def pauline_says():
 
 def yania_says_again():
     return "says what?"
-    
+
+def Genesis_says():
+    return "what is the first word?"    
 # Main function to execute all contributed functions
 def main():
     # Add your function to the list
