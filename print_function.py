@@ -7,6 +7,9 @@ def example():
 def yania_says():
     return "Everyone"
 
+def lorena_says():
+    return "Hi everyone! I'm Lorena"
+
 def pauline_says():
     return "Hello, World!"
 
