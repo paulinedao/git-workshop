@@ -5,8 +5,15 @@ def example():
 
 def juls_says():
     return "Hello, it's Juls!"
+# Add your function here
+def roselly_says():
+    return "Summer is coming"
+
 def yania_says():
     return "Everyone"
+
+def lorena_says():
+    return "Hi everyone! I'm Lorena"
 
 def pauline_says():
     return "Hello, World!"
@@ -17,7 +24,8 @@ def yania_says_again():
 # Main function to execute all contributed functions
 def main():
     # Add your function to the list
-    functions = [example, pauline_says, yania_says_again, yania_says, juls_says] 
+    functions = [example, pauline_says, yania_says_again, yania_says, roselly_says, lorena_says, juls_says] 
+    
     for func in functions:
         print(func())
 
