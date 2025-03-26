@@ -13,7 +13,7 @@ def pauline_says():
 def yania_says_again():
     return "says what?"
     
-def alexandra_pardo():
+def alexandra_says():
     return "I'm comfused!"  
 # Main function to execute all contributed functions
 def main():
