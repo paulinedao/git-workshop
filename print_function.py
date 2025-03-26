@@ -9,6 +9,9 @@ def juls_says():
 def roselly_says():
     return "Summer is coming"
 
+def alessia_says():
+    return "Ciao!"
+
 def yania_says():
     return "Everyone"
 
@@ -24,7 +27,7 @@ def yania_says_again():
 # Main function to execute all contributed functions
 def main():
     # Add your function to the list
-    functions = [example, pauline_says, yania_says_again, yania_says, roselly_says, lorena_says, juls_says] 
+    functions = [example, pauline_says, yania_says_again, yania_says, roselly_says, lorena_says, juls_says, alessia_says] 
     
     for func in functions:
         print(func())
