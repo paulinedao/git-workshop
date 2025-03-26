@@ -3,8 +3,8 @@
 def example():
     return "This is an example function!"
 
-def juls_says():
-    return "Hello, it's Juls!"
+def Trinidad_says():
+    return "Hello, it's Trinidad!"
 # Add your function here
 
 def nuria_says():
@@ -29,9 +29,9 @@ def yania_says_again():
 # Main function to execute all contributed functions
 def main():
     # Add your function to the list
-
     
-    functions = [example, pauline_says, yania_says_again, yania_says, roselly_says, lorena_says, juls_says,nuria_says] 
+    functions = [example, pauline_says, yania_says_again, yania_says, roselly_says, lorena_says,Trinidad_says] 
+
     
 
     for func in functions:
