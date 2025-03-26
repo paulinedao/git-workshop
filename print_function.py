@@ -4,8 +4,8 @@ def example():
     return "This is an example function!"
 
 # Add your function here
-def yania_says():
-    return "Everyone"
+def nuria_says():
+    return "Hello everyone"
 
 def pauline_says():
     return "Hello, World!"
@@ -16,7 +16,7 @@ def yania_says_again():
 # Main function to execute all contributed functions
 def main():
     # Add your function to the list
-    functions = [example, pauline_says, yania_says_again, yania_says] 
+    functions = [example, pauline_says, yania_says_again, nuria_says] 
     for func in functions:
         print(func())
 
