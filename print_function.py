@@ -25,14 +25,23 @@ def pauline_says():
 def yania_says_again():
     return "says what?"
 
+<<<<<<< HEAD
 def alessia_says():
     return "Ciao!"
+=======
+def maria_says():
+    return "Hola hola!"
+>>>>>>> origin/main
     
 # Main function to execute all contributed functions
 def main():
     # Add your function to the list
+<<<<<<< HEAD
 
     functions = [example, pauline_says, yania_says_again, yania_says, roselly_says, lorena_says, juls_says, alessia_says] 
+=======
+    functions = [example, pauline_says, yania_says_again, yania_says, roselly_says, lorena_says, juls_says, maria_says] 
+>>>>>>> origin/main
     
     for func in functions:
         print(func())
