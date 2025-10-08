@@ -1,7 +1,8 @@
 def example():
     return "This is an example function!"
 
-# Add your function here
+def iolan_says():
+    return "Hola desde la primera fila! :)"
 
 def wafaa_says():
     return "hola"
@@ -9,7 +10,7 @@ def wafaa_says():
 # Main function to execute all contributed functions
 def main():
     # Add your function to the list
-    functions = [example,wafaa_says] 
+    functions = [example,wafaa_says,iolan_says] 
     for func in functions:
         print(func())
 
