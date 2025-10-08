@@ -23,6 +23,9 @@ def yania_says_again():
 
 def maria_says():
     return "Hola hola!"
+
+def miao_says():
+    return "I'm hungry!"
     
 # Main function to execute all contributed functions
 def main():
@@ -35,3 +38,4 @@ def main():
 # Run the main function
 if __name__ == "__main__":
     main()
+
