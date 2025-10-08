@@ -1,15 +1,44 @@
 def example():
     return "This is an example function!"
 
+def ana_says():
+    return "Quiero comer"
+
 # Add your function here
 def daniella_says():
     return "Daniella says hi!"
+
+def suraya_says():
+    return "Howdy guys!"
+
+def ana_also_says():
+    return "WORK MORE"
+def miao_says():
+    return "I'm hungry!"
+
+def new_function():
+    return "Hello!"
+
+
+def sylwia_says():
+    return "Hello"
+
+
+def iolan_says():
+    return "Hola desde la primera fila! :)"
+
+
+def wafaa_says():
+    return "hola"
+
+
 # Main function to execute all contributed functions
 def main():
     # Add your function to the list
-    functions = [example, daniella_says] 
+    functions = [example, wafaa_says, iolan_says, sylwia_says, new_function, miao_says,ana_says, ana_also_says,suraya_says, daniella_says ]
     for func in functions:
         print(func())
+
 
 # Run the main function
 if __name__ == "__main__":
