@@ -5,6 +5,8 @@ def ana_says():
     return "Quiero comer"
 
 # Add your function here
+def suraya_says():
+    return "Howdy guys!"
 
 def ana_also_says():
     return "WORK MORE"
@@ -30,7 +32,7 @@ def wafaa_says():
 # Main function to execute all contributed functions
 def main():
     # Add your function to the list
-    functions = [example, wafaa_says, iolan_says, sylwia_says, new_function, miao_says,ana_says, ana_also_says]
+    functions = [example, wafaa_says, iolan_says, sylwia_says, new_function, miao_says,ana_says, ana_also_says,suraya_says ]
     for func in functions:
         print(func())
 
