@@ -3,10 +3,13 @@ def example():
 
 # Add your function here
 
+def wafaa_says():
+    return "hola"
+
 # Main function to execute all contributed functions
 def main():
     # Add your function to the list
-    functions = [example] 
+    functions = [example,wafaa_says] 
     for func in functions:
         print(func())
 
