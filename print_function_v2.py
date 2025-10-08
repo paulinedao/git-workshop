@@ -1,12 +1,13 @@
 def example():
     return "This is an example function!"
 
-# Add your function here
+def iolan_says():
+    return "Hola desde la primera fila! :)"
 
 # Main function to execute all contributed functions
 def main():
     # Add your function to the list
-    functions = [example] 
+    functions = [example, iolan_says] 
     for func in functions:
         print(func())
 
