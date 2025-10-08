@@ -2,7 +2,7 @@ def example():
     return "This is an example function!"
 
 # Add your function here
-def sylwia_says ():
+def sylwia_says():
     return "Hello"
 # Main function to execute all contributed functions
 def main():
