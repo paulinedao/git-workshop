@@ -5,8 +5,9 @@ def ana_says():
     return "Quiero comer"
 
 # Add your function here
-def miao_says(sentence):
+def miao_says():
     return "I'm hungry!"
+
 def new_function():
     return "Hello!"
 
