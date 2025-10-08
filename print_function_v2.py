@@ -1,12 +1,13 @@
 def example():
     return "This is an example function!"
 
-# Add your function here
+def brina_says():
+    return "Bye Bye!"
 
 # Main function to execute all contributed functions
 def main():
     # Add your function to the list
-    functions = [example] 
+    functions = [example,brina_says] 
     for func in functions:
         print(func())
 
